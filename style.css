@@ -1,0 +1,13 @@
+main {
+    display: grid;
+    grid-template-areas: 
+        "topbar topbar topbar"
+        "ads content sidebar"
+        "footer footer footer";
+}
+
+header { grid-area: topbar; }
+aside { grid-area: ads; }
+article { grid-area: content; }
+nav { grid-area: sidebar; }
+footer { grid-area: footer; }
